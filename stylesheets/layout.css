@@ -76,7 +76,7 @@ main a {
 .line-1 {
   position: absolute;
 
-  width: 63.688em;
+  width: 65vw;
   height: 50px;
   margin-left: 240px;
   top: 37px;
@@ -96,7 +96,7 @@ main a {
 
 .line-3 {
   position: absolute;
-  width: 78.688em;
+  width: 87.431vw;
   height: 50px;
   top: 1151px;
 
@@ -105,7 +105,7 @@ main a {
 
 .line-4 {
   float: right;
-  width: 1305px;
+  width: 90.625vw;
   height: 50px;
   left: 141px;
   top: 1248px;
@@ -341,7 +341,7 @@ main a {
 
 @media (min-width: 1640px) {
 .line-1 {
-  width: 76em;
+  width: 76.585vw;
 }
 
 }
