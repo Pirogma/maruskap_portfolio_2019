@@ -1,0 +1,153 @@
+
+
+header a {
+  display: flex;
+  font-size: 36px;
+  font-family: 'Moscow Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000AFF;
+
+  height: 50px;
+  margin-left: 70px;
+  margin-top: 38px;
+}
+
+h1 {
+  position: absolute;
+  font-size: 96px;
+  font-family: 'Moscow Sans', sans-serif;
+  color: #000AFF;
+
+  line-height: 116px;
+  width: 505px;
+  margin-left: 226px;
+  margin-top: 91px;
+  padding-bottom: 50px;
+}
+
+main p {
+  position: absolute;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+
+  line-height: 42px;
+  width: 905px;
+  margin-left: 226px;
+  padding-bottom: 25px;
+}
+
+main a {
+  position: absolute;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+
+  text-decoration: none;
+  color: black;
+  line-height: 42px;
+  margin-left: 226px;
+  padding-top: 25px;
+}
+
+span {
+  text-decoration: underline;
+  color: #FF8A00;
+}
+
+
+
+footer p {
+  font-size: 18px;
+  font-family: 'Moscow Sans', sans-serif;
+
+  line-height: 44px;
+
+  margin-left: 1032px;
+  margin-top: 149px;
+  padding-bottom: 12px;
+}
+
+.lines img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -51px;
+  margin-right: 60px;
+}
+
+.line-1 {
+  position: absolute;
+
+  width: 65vw;
+  height: 50px;
+  margin-left: 300px;
+  top: 37px;
+
+  background: #FF8A00;
+}
+
+.line-2 {
+  float: right;
+  width: 50px;
+  height: 565px;
+  margin-left: 1328px;
+  margin-right: 60px;
+
+  background: #FF8A00;
+}
+
+.line-3 {
+  float: right;
+  width: 85.431vw;
+  height: 50px;
+  margin-top: -100px;
+  margin-left: 182px;
+  margin-right: -8px;
+
+  background: #000AFF;
+}
+
+.line-4 {
+  position: absolute;
+  width: 50px;
+  height: 630px;
+  left: 88px;
+  margin-top: 38px;
+
+  background: #000AFF;
+}
+
+.angle-o-2 {
+  float: right;
+  margin-left: 1053px;
+}
+
+.angle-b-4 {
+  position: absolute;
+  left: 88px;
+  top: 603px;
+}
+
+.social_media {
+  position: absolute;
+  margin-left: 790px;
+  margin-top: -60px;
+  z-index: 1;
+
+}
+
+.social_media img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+
+  margin-right: 130px;
+  border: 5px solid #000000;
+  border-radius: 30px;
+
+}
+
+@media (min-width: 2000px) {
+.line-1 {
+  width: 75.585vw;
+}
+}
