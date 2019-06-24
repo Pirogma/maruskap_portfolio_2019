@@ -23,19 +23,19 @@ h1 {
   line-height: 206px;
   margin-left: 61px;
   margin-top: 60px;
-  padding-bottom: 150px;
 }
 
 h2 {
+  position: absolute;
   font-size: 96px;
   font-family: 'Moscow Sans', sans-serif;
 
-
   margin-left: 116px;
-  padding-bottom: 420px;
+  top: 903px;
 }
 
 p {
+  position: absolute;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
 
@@ -43,6 +43,7 @@ p {
   width: 1180px;
   margin-left: 226px;
   padding-bottom: 25px;
+  top: 1409px;
 }
 
 main a {
@@ -87,7 +88,7 @@ main a {
 .line-2 {
   float: right;
   width: 50px;
-  height: 565px;
+  height: 525px;
   margin-left: 1328px;
   margin-right: 60px;
 
@@ -95,10 +96,11 @@ main a {
 }
 
 .line-3 {
-  position: absolute;
+  float: right;
   width: 87.431vw;
   height: 50px;
-  top: 1151px;
+  margin-top: -100px;
+  margin-right: 380px;
 
   background: #000AFF;
 }
@@ -108,7 +110,7 @@ main a {
   width: 90.625vw;
   height: 50px;
   left: 141px;
-  top: 1248px;
+  margin-top: 38px;
 
   background: #FF8A00;
 }
@@ -116,7 +118,6 @@ main a {
 .angle-b-2 {
   float: right;
   margin-left: 1053px;
-  margin-top: 37px;
 }
 
 .angle-b-3 {
@@ -177,7 +178,7 @@ main a {
 }
 
 .ellipse4 {
-  display: flex;
+    position: absolute;
   float: right;
   width: 40px;
   height: 40px;
@@ -202,21 +203,25 @@ main a {
 }
 
 .station2 {
-  position: absolute;
+  position: relative;
+  float: right;
+  margin-right: 60px;
   width: 100px;
   height: 50px;
   background-color: #000AFF;
-  left: 1278px;
-  top: 310px;
+  top: -790px;
+  z-index: 2;
 }
 
 .station3 {
-  position: absolute;
+  position: relative;
+  float: right;
+  margin-right: 60px;
   width: 100px;
   height: 50px;
   background-color: #000AFF;
-  left: 1330px;
-  top: 790px;
+  margin-right: -150px;
+  top: -340px;
 }
 
 .em_1 {
@@ -339,6 +344,26 @@ main a {
   z-index: 1;
 }
 
+@media (min-width: 1598px) {
+.line-3 {
+  margin-top: -96px;
+}
+
+.line-4 {
+  margin-top: 40px;
+}
+
+.station2 {
+  margin-right: -1375px;
+  margin-top: 270px;
+}
+
+.station3 {
+  margin-right: -1433px;
+  margin-top: 270px;
+}
+
+}
 @media (min-width: 1640px) {
 .line-1 {
   width: 76.585vw;
