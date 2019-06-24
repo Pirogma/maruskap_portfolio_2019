@@ -28,15 +28,27 @@ h1 {
   padding-bottom: 50px;
 }
 
+main h3 {
+  position: absolute;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+
+  line-height: 42px;
+  width: 55.903vw;
+  left: 226px;
+  top: 440px;
+}
+
 main p {
   position: absolute;
   font-size: 36px;
   font-family: 'Roboto', sans-serif;
 
   line-height: 42px;
-  width: 905px;
+  width: 55.903vw;
   left: 226px;
-  top: 446px;
+  top: 503px;
 }
 
 main a {
@@ -48,7 +60,7 @@ main a {
   color: black;
   line-height: 42px;
   left: 226px;
-  top: 672px;
+  top: 702px;
 }
 
 span {
@@ -222,7 +234,7 @@ main img {
   height: 100px;
   background-color: #FF8A00;
   left: 911px;
-  top: 37px;
+  top: -37px;
 }
 
 .station2 {
@@ -274,6 +286,73 @@ main img {
   justify-content: space-between;
   margin-top: -51px;
   margin-right: 60px;
+}
+
+.angle-b-4 {
+  top: 765px;
+}
+
+.line-2 {
+  height: 965px;
+}
+
+.line-3 {
+  margin-top: -176px;
+}
+
+.station2 {
+  display: none;
+}
+  .station3 {
+    display: none;
+  }
+
+    h1 {
+    font-size: 104px;
+
+    line-height: 124px;
+    top: 83px;
+  }
+
+
+  main h3 {
+    font-size: 44px;
+
+    line-height: 50px;
+    top: 448px;
+  }
+
+  main p {
+    font-size: 44px;
+
+    line-height: 50px;
+    top: 519px;
+  }
+
+  main a {
+    font-size: 44px;
+
+    line-height: 50px;
+    top: 758px;
+  }
+
+  .ellipse1 {
+    left: 670px;
+  }
+
+    .station1 {
+      left: 984px;
+      top: 37px;
+    }
+
+    .ellipse2 {
+      left: 1298px;
+    }
+
+    .ellipse3 {
+      left: 1612px;
+    }
+
 }
 
 }
