@@ -56,7 +56,7 @@ header a {
   color: #FF8A00;
 }
 
-.lines img {
+.lines_intro img {
   display: flex;
   justify-content: space-between;
   margin-top: -51px;
@@ -222,7 +222,7 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 286px;
+  left: 336px;
   top: 1112px;
 
   z-index: 1;
@@ -237,7 +237,7 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 490px;
+  left: 540px;
   top: 1112px;
 
   z-index: 1;
@@ -252,7 +252,7 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 694px;
+  left: 744px;
   top: 1112px;
 
   z-index: 1;
@@ -267,7 +267,7 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 898px;
+  left: 948px;
   top: 1112px;
 
   z-index: 1;
@@ -282,7 +282,7 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 367px;
+  left: 417px;
   top: 1248px;
 
   z-index: 1;
@@ -297,7 +297,7 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 571px;
+  left: 621px;
   top: 1248px;
 
   z-index: 1;
@@ -312,7 +312,7 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 775px;
+  left: 825px;
   top: 1248px;
 
   z-index: 1;
@@ -327,10 +327,70 @@ header a {
   border-style: solid;
   border-color: black;
   border-width: 5px;
-  left: 979px;
+  left: 1029px;
   top: 1248px;
 
   z-index: 1;
+}
+
+.lines_m1 img {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 60px;
+}
+
+.lines_m1 .angle-o-2 {
+  position: absolute;
+  top: 1647px;
+  left: -138px;
+}
+
+.lines_m1 .angle-b-2 {
+  float: right;
+  margin-top: 464px;
+}
+
+.line-5 {
+  position: absolute;
+  width: 50px;
+  height: 1414px;
+  left: 137px;
+  top: 1947px;
+  background-color: #FF8A00;
+}
+
+.line-6 {
+  position: absolute;
+  width: 87.222vw;
+  height: 50px;
+  top: 1763px;
+
+  background-color: #000AFF;
+}
+
+.line-7 {
+  float: right;
+  width: 50px;
+  height: 235px;
+  margin-left: 1128px;
+  margin-right: 60px;
+
+  background-color: #000AFF;
+}
+
+.line-8 {
+  position: absolute;
+  width: 87.222vw;
+  height: 50px;
+  top: 2598px;
+
+  background-color: #000AFF;
+}
+
+.lines_m1 .angle-b-3 {
+  float: right;
+  margin-top: 0px;
 }
 
 .m1_cr {
@@ -407,6 +467,10 @@ header a {
 .station3 {
   margin-right: -1433px;
   margin-top: 270px;
+}
+
+.lines_m1 .angle-b-2 {
+  margin-top: 466px;
 }
 
 }
