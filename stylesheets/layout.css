@@ -480,3 +480,42 @@ header a {
 }
 
 }
+
+@media (min-width: 2560px) {
+  .intro h1 {
+text-align: left;
+  margin-left: 31.445vw;
+  }
+  .line-1 {
+  width: 78.585vw;
+  }
+
+  .line-2 {
+  margin-left: 2328px;
+  }
+
+  .line-7 {
+    margin-left: 1928px;
+  }
+
+  .ellipse1 {
+    left: 1926px;
+  }
+
+    .station1 {
+      left: 240px;
+      top: 327px;
+      height: 308px;
+    }
+
+    .ellipse2 {
+      left: 240px;
+      top: 615px;
+    }
+
+    .ellipse3 {
+      left: 240px;
+      top: 307px;
+    }
+
+}
