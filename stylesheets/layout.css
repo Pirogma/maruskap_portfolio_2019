@@ -13,7 +13,7 @@ header a {
   margin-top: 38px;
 }
 
-h1 {
+.intro h1 {
   position: absolute;
   font-size: 170px;
   font-family: 'Moscow Sans', sans-serif;
@@ -25,7 +25,7 @@ h1 {
   margin-top: 60px;
 }
 
-h2 {
+.m h2 {
   position: absolute;
   font-size: 96px;
   font-family: 'Moscow Sans', sans-serif;
@@ -34,7 +34,7 @@ h2 {
   top: 903px;
 }
 
-p {
+.m p {
   position: absolute;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
@@ -44,17 +44,6 @@ p {
   margin-left: 226px;
   padding-bottom: 25px;
   top: 1409px;
-}
-
-main a {
-  font-size: 36px;
-  font-family: 'Roboto', sans-serif;
-
-  text-decoration: none;
-  color: black;
-  line-height: 42px;
-  margin-left: 226px;
-  padding-top: 25px;
 }
 
 .gray {
@@ -342,6 +331,63 @@ main a {
   top: 1248px;
 
   z-index: 1;
+}
+
+.m1_cr {
+  position: absolute;
+  margin-left: 302px;
+}
+
+.m1_cr h2 {
+  margin-top: 1818px;
+
+  font-size: 96px;
+  font-family: 'Moscow Sans', sans-serif;
+}
+
+.m1_cr p {
+  padding-top: 70px;
+  padding-bottom: 35px;
+  font-size: 64px;
+  font-family: 'Roboto', sans-serif;
+  width: 900px;
+  line-height: 75px;
+}
+
+.m1_cr a {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  width: 900px;
+  line-height: 75px;
+  color: #FF8A00;
+}
+
+.m2_cr {
+  position: absolute;
+}
+
+.m3_cr {
+  position: absolute;
+}
+
+.m4_cr {
+  position: absolute;
+}
+
+.m1_artpr {
+  position: absolute;
+}
+
+.m2_artpr {
+  position: absolute;
+}
+
+.m3_artpr {
+  position: absolute;
+}
+
+.m4_artpr {
+  position: absolute;
 }
 
 @media (min-width: 1598px) {
