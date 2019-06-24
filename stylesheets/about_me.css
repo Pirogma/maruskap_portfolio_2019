@@ -1,5 +1,7 @@
-
-
+body {
+  background-size: cover;
+  overflow: hidden;
+}
 header a {
   display: flex;
   font-size: 36px;
@@ -33,8 +35,8 @@ main p {
 
   line-height: 42px;
   width: 905px;
-  margin-left: 226px;
-  padding-bottom: 25px;
+  left: 226px;
+  top: 446px;
 }
 
 main a {
@@ -45,16 +47,14 @@ main a {
   text-decoration: none;
   color: black;
   line-height: 42px;
-  margin-left: 226px;
-  padding-top: 25px;
+  left: 226px;
+  top: 672px;
 }
 
 span {
   text-decoration: underline;
   color: #FF8A00;
 }
-
-
 
 footer p {
   font-size: 18px;
@@ -67,10 +67,18 @@ footer p {
   padding-bottom: 12px;
 }
 
-.lines img {
+.content img {
+  position: relative;
+  float: right;
+
+  margin-top: 49px;
+  margin-right: 160px;
+}
+
+main img {
   display: flex;
   justify-content: space-between;
-  margin-top: -51px;
+  margin-top: -486.5px;
   margin-right: 60px;
 }
 
@@ -88,9 +96,10 @@ footer p {
 .line-2 {
   float: right;
   width: 50px;
-  height: 565px;
+  height: 765px;
   margin-left: 1328px;
   margin-right: 60px;
+  margin-top: -162px;
 
   background: #FF8A00;
 }
@@ -99,7 +108,7 @@ footer p {
   float: right;
   width: 85.431vw;
   height: 50px;
-  margin-top: -100px;
+  margin-top: -138px;
   margin-left: 182px;
   margin-right: -8px;
 
@@ -124,7 +133,7 @@ footer p {
 .angle-b-4 {
   position: absolute;
   left: 88px;
-  top: 603px;
+  top: 1199px;
 }
 
 .social_media {
@@ -146,8 +155,125 @@ footer p {
 
 }
 
+.ellipse1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  left: 430px;
+  top: 37px;
+
+  z-index: 1;
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  left: 670px;
+  top: 37px;
+
+  z-index: 1;
+}
+
+.ellipse3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  left: 1141px;
+  top: 37px;
+
+  z-index: 1;
+}
+
+.ellipse4 {
+    position: absolute;
+  float: right;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  left: 1328px;
+  top: -588px;
+
+  z-index: 1;
+}
+
+.station1 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background-color: #FF8A00;
+  left: 911px;
+  top: 37px;
+}
+
+.station2 {
+  position: relative;
+  float: right;
+  margin-right: 60px;
+  width: 50px;
+  height: 50px;
+  background-color: #FF8A00;
+  top: -770px;
+  z-index: 2;
+}
+
+.station3 {
+  position: relative;
+  float: right;
+  margin-right: 60px;
+  width: 100px;
+  height: 50px;
+  background-color: #FF8A00;
+  margin-right: -100px;
+  top: -340px;
+}
+
+.station4 {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #000AFF;
+  left: 88px;
+  top: 274px;
+}
+
 @media (min-width: 2000px) {
 .line-1 {
   width: 75.585vw;
 }
+
+.content img {
+  position: absolute;
+
+  margin-top: 3.403vw;
+  margin-left: 71vw;
+  width: 19.861vw;
+}
+
+main img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -51px;
+  margin-right: 60px;
+}
+
 }
