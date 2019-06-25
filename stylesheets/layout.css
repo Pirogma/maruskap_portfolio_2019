@@ -447,7 +447,7 @@ header a {
 .line-14 {
   float: right;
   width: 50px;
-  height: 438px;
+  height: 258px;
   margin-left: 1128px;
   margin-right: 60px;
 
@@ -456,18 +456,28 @@ header a {
 
 .line-15 {
   position: absolute;
-  width: 78.583vw;
+  width: 73.583vw;
   height: 50px;
 
-  top: 5620px;
+  top: 5585px;
   background-color: #000AFF;
 }
 
 .line-16 {
   position: absolute;
-  width: 87.222vw;
+  width: 84.95vw;
   height: 50px;
   top: 5723px;
+
+  background-color: #FF8A00;
+}
+
+.line-17 {
+  float: right;
+  width: 50px;
+  height: 1298px;
+  margin-left: 1128px;
+  margin-right: 60px;
 
   background-color: #FF8A00;
 }
@@ -508,7 +518,6 @@ margin-top: 52px;
 
 .lines_m1 .angle-b-3-3 {
   float: right;
-margin-top: -145px;
   margin-left: 1238px;
 }
 
@@ -516,6 +525,12 @@ margin-top: -145px;
   float: right;
   margin-top: 54px;
   margin-left: 748px;
+}
+
+.lines_m1 .angle-o-2-2-2 {
+  float: right;
+  margin-left: 1238px;
+  margin-top: 88px;
 }
 
 .m1_cr {
@@ -553,6 +568,36 @@ margin-top: -145px;
 
 .m3_cr {
   position: absolute;
+  margin-left: 20.972vw;
+  width: 1000px;
+
+}
+
+.m3_cr h2 {
+  margin-top: 5818px;
+  font-size: 96px;
+  font-family: 'Moscow Sans', sans-serif;
+}
+
+.m3_cr p {
+  padding-top: 70px;
+  padding-bottom: 35px;
+  font-size: 64px;
+  font-family: 'Roboto', sans-serif;
+  width: 900px;
+  line-height: 75px;
+}
+
+.m3_cr a {
+  width: 200px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 75px;
+  color: #FF8A00;
+}
+
+.m3_cr img {
+  padding-top: 30px;
+  width: 800px;
 }
 
 .m4_cr {
@@ -734,6 +779,10 @@ margin-top: -145px;
   width: 87.583vw;
 }
 
+.line-16 {
+  width: 87.583vw;
+}
+
 }
 
 @media (min-width: 2560px) {
@@ -783,6 +832,10 @@ margin-top: -145px;
         margin-left: 35.972vw;
       }
 
+      .m3_cr {
+        margin-left: 35.972vw;
+      }
+
       .m1_artpr {
         margin-left: 24.972vw;
       }
@@ -793,6 +846,10 @@ margin-top: -145px;
 
       .line-12 {
         width: 90.583vw;
+      }
+
+      .line-17 {
+          margin-left: 57.972vw;
       }
 
 
