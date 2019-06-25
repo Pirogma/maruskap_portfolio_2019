@@ -463,6 +463,15 @@ header a {
   background-color: #000AFF;
 }
 
+.line-16 {
+  position: absolute;
+  width: 87.222vw;
+  height: 50px;
+  top: 5723px;
+
+  background-color: #FF8A00;
+}
+
 .lines_m1 .angle-b-3 {
   float: right;
   margin-top: 0px;
@@ -503,6 +512,11 @@ margin-top: -145px;
   margin-left: 1238px;
 }
 
+.lines_m1 .angle-o-2-2-2 {
+  float: right;
+  margin-top: 54px;
+  margin-left: 748px;
+}
 
 .m1_cr {
   position: absolute;
