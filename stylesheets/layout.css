@@ -454,6 +454,15 @@ header a {
   background-color: #000AFF;
 }
 
+.line-15 {
+  position: absolute;
+  width: 78.583vw;
+  height: 50px;
+
+  top: 5620px;
+  background-color: #000AFF;
+}
+
 .lines_m1 .angle-b-3 {
   float: right;
   margin-top: 0px;
@@ -485,6 +494,12 @@ header a {
 .lines_m1 .angle-b-2-2 {
   float: right;
 margin-top: 52px;
+  margin-left: 1238px;
+}
+
+.lines_m1 .angle-b-3-3 {
+  float: right;
+margin-top: -145px;
   margin-left: 1238px;
 }
 
@@ -701,6 +716,10 @@ margin-top: 52px;
   width: 70.583vw;
 }
 
+.line-15 {
+  width: 87.583vw;
+}
+
 }
 
 @media (min-width: 2560px) {
@@ -786,9 +805,15 @@ margin-top: 52px;
         width: 75.583vw;
   }
 
+
   .lines_m1 .angle-b-2-2 {
     float: right;
   margin-top: 52px;
     margin-left: 1438px;
+  }
+
+  .lines_m1 .angle-b-3-3 {
+    float: right;
+    margin-left: 1658px;
   }
 }
