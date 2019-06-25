@@ -475,9 +475,18 @@ header a {
 .line-17 {
   float: right;
   width: 50px;
-  height: 1298px;
+  height: 1258px;
   margin-left: 1128px;
   margin-right: 60px;
+
+  background-color: #FF8A00;
+}
+
+.line-18 {
+  position: absolute;
+  width: 87.222vw;
+  height: 50px;
+  top: 7581px;
 
   background-color: #FF8A00;
 }
@@ -531,6 +540,11 @@ margin-top: 52px;
   float: right;
   margin-left: 1238px;
   margin-top: 88px;
+}
+
+.lines_m1 .angle-o-3-3-3 {
+  float: right;
+  margin-left: 1238px;
 }
 
 .m1_cr {
